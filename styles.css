@@ -1,0 +1,129 @@
+
+.breadcrumb li {
+    display: inline;
+}
+
+.breadcrumb li+li::before {
+    content: ">";
+    padding:0 auto;
+}
+
+body{
+    background-color: #F8F8FF;
+}
+
+h1 {
+    font-family: Montserrat Alternates;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: Quicksand;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 400;
+    margin: 15px;
+    padding: 40px;
+}
+
+h3 {
+    font-size: 26px;
+    color: #726DA8;
+}
+
+p {
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+.color-box div {
+    display: inline-block;
+    width: 15%;
+    height: 100px;
+    padding: 44px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.color-box p {
+    font-family: Quicksand;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+.raspberry-rose {
+    color: white;
+    background-color: #B8336A;
+    padding: 10px;
+}
+.ultra-violet {
+    color: white;
+    background-color: #726DA8;
+    padding: 10px;
+}
+.glaucous {
+    color: white;
+    background-color: #7D8CC4;
+    padding: 10px;
+}
+.non-photo-blue {
+    color: white;
+    background-color: #A0D2DB;
+    padding: 10px;
+}
+.wisteria {
+    color: white;
+    background-color: #C490D1;
+    padding: 10px;
+}
+
+.montserrat, .montserrat p {
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+}
+
+.montserrat h3 {
+    font-size: 30px;
+}
+
+.quicksand, .quicksand p {
+    font-family: Quicksand;
+    font-size: 20px;
+}
+
+.quicksand h3 {
+    font-size: 30px;
+}
+
+.dongle, .dongle p {
+    font-family: Dongle;
+    font-size: 30px;
+    line-height: 10px;
+}
+
+.dongle h3 {
+    font-size: 45px;
+}
+
+.bold  {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.text-styles h1,.text-styles h2, .text-styles p {
+    text-align: left;
+    padding: 10px;
+}
+
+li {
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+}
